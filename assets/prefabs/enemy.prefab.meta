@@ -2,12 +2,12 @@
   "ver": "1.1.39",
   "importer": "prefab",
   "imported": true,
-  "uuid": "d64c9e6d-5c07-4c61-9c0a-0d42942309f8",
+  "uuid": "e643686b-b000-4165-a21c-541afd5c4218",
   "files": [
     ".json"
   ],
   "subMetas": {},
   "userData": {
-    "syncNodeName": "bgSlice"
+    "syncNodeName": "enemy"
   }
 }

@@ -6,5 +6,35 @@
       "fitHeight": true,
       "fitWidth": false
     }
+  },
+  "physics": {
+    "gravity": {
+      "y": 0
+    },
+    "collisionGroups": [
+      {
+        "index": 1,
+        "name": "player"
+      },
+      {
+        "index": 2,
+        "name": "bullet"
+      },
+      {
+        "index": 3,
+        "name": "enemy"
+      },
+      {
+        "index": 4,
+        "name": "bound"
+      }
+    ],
+    "collisionMatrix": {
+      "0": 31,
+      "1": 25,
+      "2": 29,
+      "3": 23,
+      "4": 15
+    }
   }
 }

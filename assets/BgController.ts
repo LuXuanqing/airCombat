@@ -8,6 +8,8 @@ export class BgController extends Component {
 
     start() {
         this.canvasHeight = find('Canvas').getComponent(UITransform).height
+        // const canvas = find('Canvas').getComponent(UITransform)
+        // console.log(canvas.width, canvas.height)
     }
 
     update(deltaTime: number) {
@@ -20,5 +22,5 @@ export class BgController extends Component {
             this.node.setPosition(0, this.canvasHeight)
         }
     }
-}
 
+}
